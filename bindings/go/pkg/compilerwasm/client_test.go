@@ -1,8 +1,8 @@
 package compilerwasm
 
 import (
-	"compiler-rs/bindings/go/internal/assets"
 	"context"
+	"github.com/Semantime/compiler-rs/bindings/go/internal/assets"
 	"strings"
 	"testing"
 )

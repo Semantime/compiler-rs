@@ -30,7 +30,7 @@ import (
   "context"
   "os"
 
-  "compiler-rs/bindings/go/pkg/compilerwasm"
+  "github.com/Semantime/compiler-rs/bindings/go/pkg/compilerwasm"
 )
 
 func main() {

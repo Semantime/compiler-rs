@@ -1,4 +1,4 @@
-module compiler-rs/bindings/go
+module github.com/Semantime/compiler-rs/bindings/go
 
 go 1.25.0
 
