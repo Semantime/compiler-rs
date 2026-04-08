@@ -1,0 +1,64 @@
+{
+  "name": "single_series_soft_recovery_after_drop",
+  "scope": "line",
+  "subject_id": "single_series_soft_recovery_after_drop",
+  "series": [
+    {
+      "metric_id": "single_series_soft_recovery_after_drop",
+      "entity_id": "single_series_soft_recovery_after_drop",
+      "group_id": "single_series_soft_recovery_after_drop",
+      "labels": [],
+      "points": [
+        [
+          "2026-03-31T10:00:00Z",
+          120.0
+        ],
+        [
+          "2026-03-31T10:01:00Z",
+          120.0
+        ],
+        [
+          "2026-03-31T10:02:00Z",
+          120.0
+        ],
+        [
+          "2026-03-31T10:03:00Z",
+          84.0
+        ],
+        [
+          "2026-03-31T10:04:00Z",
+          88.0
+        ],
+        [
+          "2026-03-31T10:05:00Z",
+          92.0
+        ],
+        [
+          "2026-03-31T10:06:00Z",
+          96.0
+        ],
+        [
+          "2026-03-31T10:07:00Z",
+          100.0
+        ],
+        [
+          "2026-03-31T10:08:00Z",
+          104.0
+        ],
+        [
+          "2026-03-31T10:09:00Z",
+          108.0
+        ],
+        [
+          "2026-03-31T10:10:00Z",
+          110.0
+        ],
+        [
+          "2026-03-31T10:11:00Z",
+          112.0
+        ]
+      ]
+    }
+  ],
+  "expected_top_events": []
+}

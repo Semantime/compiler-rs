@@ -1,0 +1,44 @@
+[workspace]
+members = [
+  ".",
+  "crates/compiler-schema",
+  "crates/compiler-core",
+  "crates/compiler-bench"
+]
+resolver = "2"
+
+[workspace.dependencies]
+clap = { version = "4.5", features = ["derive"] }
+linreg = "0.2"
+pelt = { version = "0.3.1", default-features = false }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+statrs = { version = "0.18", default-features = false }
+time = { version = "0.3", features = ["parsing"] }
+
+[package]
+name = "compiler-rs"
+version = "0.1.0"
+edition = "2024"
+
+[features]
+default = []
+wasm-bindgen-export = ["dep:wasm-bindgen"]
+
+[lib]
+name = "compiler_rs"
+path = "src/lib.rs"
+crate-type = ["lib", "cdylib"]
+
+[[bin]]
+name = "compiler-rs"
+path = "src/main.rs"
+
+[dependencies]
+compiler-schema = { path = "crates/compiler-schema" }
+compiler-core = { path = "crates/compiler-core" }
+compiler-bench = { path = "crates/compiler-bench" }
+clap = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+wasm-bindgen = { version = "0.2", optional = true }

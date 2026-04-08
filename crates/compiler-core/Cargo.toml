@@ -1,0 +1,16 @@
+[package]
+name = "compiler-core"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "compiler_core"
+path = "src/lib.rs"
+
+[dependencies]
+compiler-schema = { path = "../compiler-schema" }
+linreg = { workspace = true }
+pelt = { workspace = true }
+serde = { workspace = true }
+statrs = { workspace = true }
+time = { workspace = true }

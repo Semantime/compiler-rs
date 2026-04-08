@@ -1,0 +1,14 @@
+[package]
+name = "compiler-bench"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "compiler_bench"
+path = "src/lib.rs"
+
+[dependencies]
+compiler-core = { path = "../compiler-core" }
+compiler-schema = { path = "../compiler-schema" }
+serde = { workspace = true }
+serde_json = { workspace = true }

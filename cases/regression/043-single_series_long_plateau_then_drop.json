@@ -1,0 +1,68 @@
+{
+  "name": "single_series_long_plateau_then_drop",
+  "scope": "line",
+  "subject_id": "single_series_long_plateau_then_drop",
+  "series": [
+    {
+      "metric_id": "single_series_long_plateau_then_drop",
+      "entity_id": "single_series_long_plateau_then_drop",
+      "group_id": "single_series_long_plateau_then_drop",
+      "labels": [],
+      "points": [
+        [
+          "2026-03-31T10:00:00Z",
+          120.0
+        ],
+        [
+          "2026-03-31T10:01:00Z",
+          120.0
+        ],
+        [
+          "2026-03-31T10:02:00Z",
+          120.0
+        ],
+        [
+          "2026-03-31T10:03:00Z",
+          120.0
+        ],
+        [
+          "2026-03-31T10:04:00Z",
+          120.0
+        ],
+        [
+          "2026-03-31T10:05:00Z",
+          120.0
+        ],
+        [
+          "2026-03-31T10:06:00Z",
+          120.0
+        ],
+        [
+          "2026-03-31T10:07:00Z",
+          92.0
+        ],
+        [
+          "2026-03-31T10:08:00Z",
+          92.0
+        ],
+        [
+          "2026-03-31T10:09:00Z",
+          92.0
+        ],
+        [
+          "2026-03-31T10:10:00Z",
+          92.0
+        ],
+        [
+          "2026-03-31T10:11:00Z",
+          92.0
+        ]
+      ]
+    }
+  ],
+  "expected_top_events": [
+    "sustained_low",
+    "regime_shift",
+    "decreasing_trend"
+  ]
+}

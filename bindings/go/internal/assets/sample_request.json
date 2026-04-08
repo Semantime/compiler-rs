@@ -1,0 +1,22 @@
+{
+  "scope": "line",
+  "series": [
+    {
+      "metric_id": "cpu_usage",
+      "entity_id": "host-1",
+      "group_id": "cluster-a",
+      "labels": [
+        ["service", "checkout"],
+        ["region", "eu-west"]
+      ],
+      "points": [
+        {"ts_secs": 0, "value": 0.20},
+        {"ts_secs": 60, "value": 0.22},
+        {"ts_secs": 120, "value": 0.21},
+        {"ts_secs": 180, "value": 0.24},
+        {"ts_secs": 240, "value": 0.95},
+        {"ts_secs": 300, "value": 0.92}
+      ]
+    }
+  ]
+}

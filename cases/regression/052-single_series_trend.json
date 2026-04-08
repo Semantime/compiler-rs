@@ -1,0 +1,68 @@
+{
+  "name": "single_series_trend",
+  "scope": "line",
+  "subject_id": "single_series_trend",
+  "series": [
+    {
+      "metric_id": "single_series_qps",
+      "entity_id": "single_series_trend",
+      "group_id": "single_series_trend",
+      "labels": [],
+      "points": [
+        [
+          "2026-03-31T10:00:00Z",
+          100.0
+        ],
+        [
+          "2026-03-31T10:01:00Z",
+          101.0
+        ],
+        [
+          "2026-03-31T10:02:00Z",
+          100.0
+        ],
+        [
+          "2026-03-31T10:03:00Z",
+          101.0
+        ],
+        [
+          "2026-03-31T10:04:00Z",
+          100.0
+        ],
+        [
+          "2026-03-31T10:05:00Z",
+          120.0
+        ],
+        [
+          "2026-03-31T10:06:00Z",
+          121.0
+        ],
+        [
+          "2026-03-31T10:07:00Z",
+          122.0
+        ],
+        [
+          "2026-03-31T10:08:00Z",
+          121.0
+        ],
+        [
+          "2026-03-31T10:09:00Z",
+          122.0
+        ],
+        [
+          "2026-03-31T10:10:00Z",
+          121.0
+        ],
+        [
+          "2026-03-31T10:11:00Z",
+          122.0
+        ]
+      ]
+    }
+  ],
+  "expected_top_events": [
+    "sustained_high",
+    "regime_shift",
+    "increasing_trend"
+  ]
+}

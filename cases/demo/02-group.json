@@ -1,0 +1,89 @@
+{
+  "scope": "group",
+  "groups": [
+    {
+      "metric_id": "tikv_thread_cpu",
+      "group_id": "tikv-1",
+      "members": [
+        {
+          "metric_id": "tikv_thread_cpu",
+          "entity_id": "tikv-1/coprocessor",
+          "group_id": "tikv-1",
+          "labels": [["component", "coprocessor"]],
+          "points": [
+            { "ts_secs": 0, "value": 10.0 },
+            { "ts_secs": 60, "value": 10.1 },
+            { "ts_secs": 120, "value": 10.2 },
+            { "ts_secs": 180, "value": 15.0 },
+            { "ts_secs": 240, "value": 18.0 },
+            { "ts_secs": 300, "value": 18.2 },
+            { "ts_secs": 360, "value": 18.4 },
+            { "ts_secs": 420, "value": 26.0 },
+            { "ts_secs": 480, "value": 18.3 },
+            { "ts_secs": 540, "value": 18.1 }
+          ]
+        },
+        {
+          "metric_id": "tikv_thread_cpu",
+          "entity_id": "tikv-1/grpc",
+          "group_id": "tikv-1",
+          "labels": [["component", "grpc"]],
+          "points": [
+            { "ts_secs": 0, "value": 9.8 },
+            { "ts_secs": 60, "value": 10.0 },
+            { "ts_secs": 120, "value": 10.1 },
+            { "ts_secs": 180, "value": 14.0 },
+            { "ts_secs": 240, "value": 16.0 },
+            { "ts_secs": 300, "value": 16.3 },
+            { "ts_secs": 360, "value": 16.5 },
+            { "ts_secs": 420, "value": 16.7 },
+            { "ts_secs": 480, "value": 16.6 },
+            { "ts_secs": 540, "value": 16.5 }
+          ]
+        }
+      ]
+    },
+    {
+      "metric_id": "tikv_thread_cpu",
+      "group_id": "tikv-2",
+      "members": [
+        {
+          "metric_id": "tikv_thread_cpu",
+          "entity_id": "tikv-2/coprocessor",
+          "group_id": "tikv-2",
+          "labels": [["component", "coprocessor"]],
+          "points": [
+            { "ts_secs": 0, "value": 10.1 },
+            { "ts_secs": 60, "value": 10.0 },
+            { "ts_secs": 120, "value": 10.2 },
+            { "ts_secs": 180, "value": 10.1 },
+            { "ts_secs": 240, "value": 10.0 },
+            { "ts_secs": 300, "value": 10.2 },
+            { "ts_secs": 360, "value": 10.1 },
+            { "ts_secs": 420, "value": 10.0 },
+            { "ts_secs": 480, "value": 10.2 },
+            { "ts_secs": 540, "value": 10.1 }
+          ]
+        },
+        {
+          "metric_id": "tikv_thread_cpu",
+          "entity_id": "tikv-2/grpc",
+          "group_id": "tikv-2",
+          "labels": [["component", "grpc"]],
+          "points": [
+            { "ts_secs": 0, "value": 9.9 },
+            { "ts_secs": 60, "value": 10.0 },
+            { "ts_secs": 120, "value": 10.1 },
+            { "ts_secs": 180, "value": 10.0 },
+            { "ts_secs": 240, "value": 9.9 },
+            { "ts_secs": 300, "value": 10.1 },
+            { "ts_secs": 360, "value": 10.0 },
+            { "ts_secs": 420, "value": 9.9 },
+            { "ts_secs": 480, "value": 10.1 },
+            { "ts_secs": 540, "value": 10.0 }
+          ]
+        }
+      ]
+    }
+  ]
+}

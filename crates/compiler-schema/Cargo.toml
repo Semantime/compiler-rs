@@ -1,0 +1,15 @@
+[package]
+name = "compiler-schema"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "compiler_schema"
+path = "src/lib.rs"
+
+[dependencies]
+serde = { workspace = true }
+time = { workspace = true }
+
+[dev-dependencies]
+serde_json = { workspace = true }

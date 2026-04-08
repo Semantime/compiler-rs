@@ -1,0 +1,8 @@
+target/
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+*.swp
+tools/regression_viewer_py/generated/
+tools/regression_viewer_py/.venv/
